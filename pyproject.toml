@@ -58,6 +58,9 @@ dev = [
 requires = ["setuptools>=78", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools_scm]
+write_to_source = false
+
 [tool.ruff]
 required-version = ">=0.11.0"
 line-length = 100
